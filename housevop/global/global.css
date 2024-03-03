@@ -1,0 +1,48 @@
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../section/section.css);
+@import url(../footer/footer.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 1040px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 840px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+    .container {
+      width: 640px;
+      padding: 0 20px;
+      margin: 0 auto;
+      ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    }
+}
+
+
